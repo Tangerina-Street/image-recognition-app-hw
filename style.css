@@ -1,0 +1,25 @@
+body{
+    background-color:cornsilk;
+    }
+
+h1{
+    color:cornflowerblue;
+    font-family:fantasy;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color:darkgoldenrod;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    width: 250px;
+    height: 200px;
+    border: 5px dotted rebeccapurple;
+}
+span{
+    color:darkgoldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}

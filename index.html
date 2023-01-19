@@ -1,0 +1,35 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Facial Recognition</title>
+    </head>
+    <body>
+        <center>
+            <h1>Facial Recognition</h1>
+            <br>
+            <br>
+            <h3>The model is trained to recognize the following people, and the following people ONLY: </h3>
+            <br>
+            <h2>Sahiti</h2>
+            <h2>Amma</h2>
+            <br>
+            <h3>Webcam View: </h3>
+            <div id="webcam_view_holder"></div>
+            <h3>Taken Photo: </h3>
+            <div id="taken_pic"></div>
+            <br>
+            <button id="take_pic" onclick="TakePic()" class="btn btn-success">Take Picture</button>
+            <br>
+            <br>
+            <button id="identify_pic" onclick="IdentifyPic()" class="btn btn-success">Identify Picture</button>
+            <h3>The person in the picture is: </h3>
+            <span id="person"></span>
+            <h3>The accuracy of this model is: </h3>
+            <span id="accuracy"></span>
+        </center>
+    </body>
+</html>
